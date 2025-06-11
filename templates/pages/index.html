@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Página con Imagen de Fondo</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <div class="background-image">
+    <nav class="navbar">
+        <button class="navbar-toggle" id="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        <ul class="nav-list navbar-links" id="navbar-links">
+          <li><a href="#Inicio">Inicio</a></li>
+          <li><a href="#Productos">Productos</a></li>
+          <li><a href="#Contactanos">Contáctanos</a></li>
+        </ul>
+      </nav>
+      
+    <div id="Inicio" class="contenido">
+      <h1>Bienvenido a Carpelo</h1>
+    </div>
+  </div>
+
+  <div class="tarjetas">
+    <div class="tarjeta">
+      <img src="/static/images/Jose_cafe.jpg" alt="Tradición Cafetera">
+      <div class="contenido-tarjeta">
+        <h3>Tradición Cafetera</h3>
+        <p>Desde generaciones atrás, nuestros campos han cultivado pasión, aroma y sabor. Cada grano cuenta una historia de familia, esfuerzo y orgullo colombiano.</p>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <img src="/static/images/Amanecer_cafe.png" alt="Sabores del Alba">
+      <div class="contenido-tarjeta">
+        <h3>Sabores del Alba</h3>
+        <p>Al amanecer, cuando la neblina acaricia las montañas, nace el café más suave, balanceado y fragante, listo para conquistar paladares en todo el mundo.</p>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <img src="/static/images/Jose_Javier.jpg" alt="De la Tierra al Corazón">
+      <div class="contenido-tarjeta">
+        <h3>De la Tierra al Corazón</h3>
+        <p>Cada taza que compartimos es una promesa de calidad, cosechada con amor y entregada con el alma. Porque el café también es una forma de amar.</p>
+      </div>
+    </div>
+  </div>
+  
+
+  <h1 id="Productos" class="titulo-productos">Nuestros Productos</h1>
+
+  
+  <section class="grid-productos">
+
+    <div class="tarjeta-producto">
+      <img src="/static/images/producto_carpelo.png" alt="Café en Grano">
+      <h4>Café en Grano</h4>
+      <p>Granos seleccionados para una taza intensa y aromática.</p>
+      <a href="#"><i class="fab fa-whatsapp"></i> Pedir por WhatsApp</a>
+    </div>
+  
+    <div class="tarjeta-producto">
+      <img src="/static/images/producto_carpelo.png" alt="Café Molido">
+      <h4>Café Molido</h4>
+      <p>Perfecto para preparar en casa con sabor artesanal.</p>
+      <a href="#"><i class="fab fa-whatsapp"></i> Pedir por WhatsApp</a>
+    </div>
+  
+    <div class="tarjeta-producto">
+      <img src="/static/images/producto_carpelo.png" alt="Café Orgánico">
+      <h4>Café Orgánico</h4>
+      <p>Producido sin químicos, sabor natural garantizado.</p>
+      <a href="#"><i class="fab fa-whatsapp"></i> Pedir por WhatsApp</a>
+    </div>
+  
+    <div class="tarjeta-producto">
+      <img src="/static/images/producto_carpelo.png" alt="Café Orgánico">
+      <h4>Café Orgánico</h4>
+      <p>Producido sin químicos, sabor natural garantizado.</p>
+      <a href="#"><i class="fab fa-whatsapp"></i> Pedir por WhatsApp</a>
+    </div>
+  
+    <div class="tarjeta-producto">
+      <img src="/static/images/producto_carpelo.png" alt="Café Orgánico">
+      <h4>Café Orgánico</h4>
+      <p>Producido sin químicos, sabor natural garantizado.</p>
+      <a href="#"><i class="fab fa-whatsapp"></i> Pedir por WhatsApp</a>
+    </div>
+  
+    <div class="tarjeta-producto">
+      <img src="/static/images/producto_carpelo.png" alt="Café Orgánico">
+      <h4>Café Orgánico</h4>
+      <p>Producido sin químicos, sabor natural garantizado.</p>
+      <a href="#"><i class="fab fa-whatsapp"></i> Pedir por WhatsApp</a>
+    </div>
+  </section>
+  
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const links = document.getElementById('navbar-links');
+  
+    toggle.addEventListener('click', () => {
+      links.classList.toggle('active');
+    });
+  </script>
+  
+  
+</body>
+
+<footer class="footer" id="Contactanos">
+    <div class="footer-content">
+      <h2>Síguenos en nuestras redes</h2>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/cafecarpelo" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/cafe_carpelo/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@CafeCarpelo" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://wa.me/573001234567" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <p>&copy; 2025 Carpelo. Todos los derechos reservados.</p>
+    </div>
+</footer>
+  
+</html>
