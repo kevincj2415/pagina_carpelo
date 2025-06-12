@@ -7,7 +7,7 @@ body, html {
   }
   
   .background-image {
-    background-image: url('images/Gemini_Generated_Image_euclareuclareucl.png'); /* Puedes reemplazar la URL */
+    background-image: url('../images/Gemini_Generated_Image_euclareuclareucl.png'); /* Puedes reemplazar la URL */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -101,7 +101,7 @@ body, html {
     justify-content: center;
     gap: 30px;
     padding: 60px 20px;
-    background-image: url('images/Gemini_Generated_Image_euclareuclareucl.png');
+    background-image: url('../images/Gemini_Generated_Image_euclareuclareucl.png');
     border-radius: 25px;
     margin: 60px auto;
     max-width: 1200px;
@@ -306,7 +306,7 @@ body, html {
 /* FOOTER */
 
 .footer {
-    background: url('images/personas.png') center/cover no-repeat;
+    background: url('../images/personas.png') center/cover no-repeat;
     padding: 60px 20px;
     color: white;
     position: relative;
